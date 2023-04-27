@@ -11,10 +11,9 @@ spec:
             - name: "deployment"
               properties:
                 deploymentstrategy: "direct"
-            - name: "test"
-              properties:
-                teststrategy: "functional"
             - name: "evaluation"
+              properties:
+                timeframe: "15m"
             - name: "release"
         - name: "delivery-direct"
           tasks:
